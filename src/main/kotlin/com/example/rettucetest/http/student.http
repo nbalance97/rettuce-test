@@ -1,0 +1,12 @@
+### 학생 조회
+GET http://127.0.0.1:8080/student/2
+
+### 학생 생성
+POST http://127.0.0.1:8080/student
+Content-Type: application/json
+
+{
+  "id": "2",
+  "name": "lee",
+  "grade": "A"
+}
